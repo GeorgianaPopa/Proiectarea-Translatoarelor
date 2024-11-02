@@ -1,0 +1,14 @@
+INT x = 5;
+INT y = 10;
+
+if (x < y) {
+    x = x + 2 * y;
+} else {
+    x = x - 1;
+}
+
+while (x >= y) {
+    y = y + 1;
+}
+
+return x;
